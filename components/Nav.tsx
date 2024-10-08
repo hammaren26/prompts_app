@@ -75,10 +75,6 @@ const Nav = () => {
         )}
       </div>
 
-      <pre style={{ whiteSpace: "pre-wrap", wordWrap: "break-word" }}>
-        {JSON.stringify(providers, null, 2)} {/* 2 — количество отступов */}
-      </pre>
-
       {/* mobile navigation */}
 
       <div className="sm:hidden flex relative">
